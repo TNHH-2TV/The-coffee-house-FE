@@ -13,7 +13,7 @@ function LoginPage(props) {
             justifyContent={"center"}
             alignItems={"center"}
             color={"white"}
-        >
+        > HELLO
             <Box w={"30%"} margin={"auto"}>
                 <Text textTransform={"uppercase"} fontSize={"2xl"} textAlign={"center"} fontFamily={"Lato"} marginBottom={"2rem"}>Login admin</Text>
                 <Box width="80%" margin="auto">
