@@ -14,6 +14,7 @@ function LoginPage(props) {
             alignItems={"center"}
             color={"white"}
         > HELLO
+        DEV
             <Box w={"30%"} margin={"auto"}>
                 <Text textTransform={"uppercase"} fontSize={"2xl"} textAlign={"center"} fontFamily={"Lato"} marginBottom={"2rem"}>Login admin</Text>
                 <Box width="80%" margin="auto">
