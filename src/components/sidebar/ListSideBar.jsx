@@ -13,8 +13,8 @@ function ListSideBar(props) {
             {
                 List_SideBar.map((value, index) => {
                     return (
-                        <Link to={value.link}>
-                            <Box key={index} display = {'flex'} alignItems = {'center'} padding={'0.5rem 1rem'} margin={'0.5rem 0'} cursor={'pointer'} _hover={{bg: 'gray'}} borderRadius={'10px'}>
+                        <Link to={value.link} key={index}>
+                            <Box  display = {'flex'} alignItems = {'center'} padding={'0.5rem 1rem'} margin={'0.5rem 0'} cursor={'pointer'} _hover={{bg: 'gray'}} borderRadius={'10px'}>
                                 <value.icon />
                                 <Text marginLeft={'0.5rem'} fontSize={'l'} >{value.text}</Text>
                             </Box>

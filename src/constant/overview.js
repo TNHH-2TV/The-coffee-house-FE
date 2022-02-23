@@ -4,20 +4,24 @@ export const Overview = [
         flag: 'BUBGET', 
         turnover: '20k', 
         icon: IoBookSharp, 
-    }, 
+        color: "#D14343"
+    },  
     {
         flag: 'TOTAL BILL', 
         turnover: '1.6k', 
-        icon: IoPerson
+        icon: IoPerson, 
+        color: "#14B8A6"
     }, 
     {
         flag: 'INCOM', 
         turnover: '24k', 
-        icon: IoDiamond
+        icon: IoDiamond, 
+        color: "#FFB020"
     }, 
     {
         flag: 'TOTAL PROFIT', 
         turnover: "4k", 
-        icon: IoEarthSharp
+        icon: IoEarthSharp, 
+        color: "#5048E5"
     }
 ]

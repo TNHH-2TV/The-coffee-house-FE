@@ -8,9 +8,9 @@ export const List_SideBar = [
         link: "/overview"
     }, 
     {
-        text: "Analystics", 
+        text: "Product", 
         icon: IoIosAnalytics, 
-        link: "/analystics"
+        link: "/product"
     }, 
     {
         text: "Customer", 
